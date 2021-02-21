@@ -1,0 +1,63 @@
+
+/* div elements have a background color of powder blue and a width of 500 */
+/* Setting margin-left and margin-right to auto centers the div element 
+   within the gradient */
+div {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* The h1 header have a lightpink background color */
+h1 {
+    background-color: lightpink;
+    text-align: center;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h2 {
+    background-color:chartreuse;
+    text-align: center;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+button {
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* The table elements are centered horizontally in the gradient */
+table {
+    margin: auto;
+}
+
+/* The table rows with a class "tableRow" have a background color
+   of lightgray, the text is center-aligned, and the font is in italics */
+.tableRow {
+    background-color: lightgray;
+    text-align: center;
+}
+
+td {
+    font-family: 'Arial Black', sans-serif;
+    font-size:xxx-large;
+    border: 1px solid black;
+    width: 75px;
+    height: 75px;
+}
+
+.hidden {
+    visibility: hidden;
+}

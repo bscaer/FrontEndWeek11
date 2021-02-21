@@ -1,0 +1,49 @@
+<!-- 
+I created a game of tic-tac-toe.
+a.	The heading says whether it is X’s or O’s turn or if the game is over
+b.	When a cell in the grid is clicked, an X or O should appears in that spot depending on whose turn it is.
+c.	Clicking the Reset button clears the grid and restart the game.
+d.	When a player has won, or the board is full and the game results in a draw, a Bootstrap banner appears across the screen announcing the winner.
+ -->
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    </head>
+    <body>
+        <!-- The Tic Tac Toe board -->
+        <div class="container">
+            <h1>Tic Tac Toe</h1>
+            <h2 id="header">O's Turn</h2>
+            <button type="button" class="btn btn-primary" id="reset">Reset</button>
+            <table>
+                <tr class="tableRow">
+                    <td id="0"></td>
+                    <td id="1"></td>
+                    <td id="2"></td>
+                </tr>
+                <tr class="tableRow">
+                    <td id="3"></td>
+                    <td id="4"></td>
+                    <td id="5"></td>
+                </tr>
+                <tr class="tableRow">
+                    <td id="6"></td>
+                    <td id="7"></td>
+                    <td id="8"></td>
+                </tr>
+            </table> 
+            <br>
+            <div id="banner" class="alert alert-success"></div>
+        </div>
+
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
